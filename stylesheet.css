@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family:serif;
+    line-height: 1.7;
+    color: #6E6262; 
+    background-color: #EBE9E9;
+}
+
+
+.main-nav{
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 47px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+    list-style: none;
+}
+
+.main-nav li{
+    margin-left: 46px;
+    text-decoration-line: none;
+}
+
+.main-nav a{
+    color: #6E6262
+}
+
+.page-title{
+    background-image: url(../image/06ellyfdesk845_TP_V4.jpg);
+    opacity: 0.5;
+    text-align: center;
+    background-size: 960PX 620PX;
+    background-position: center top;
+    min-height: 100vh;
+    padding-top: 230px;
+    letter-spacing: 24px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+.title{
+    font-family:serif;
+    font-size: 32px;
+    letter-spacing: 15px;
+    padding: 50px;
+}
+
+/*about*/
+img{
+    position: relative;
+    width: 645px;
+    height: 447px;
+    opacity: 0.7;
+    margin-left: 250px;
+}
+
+.about{
+    display: flex;
+    padding-bottom: 300px;
+}
+
+.page-wrapper{
+    position: absolute;
+    top: 605px;
+    left: 660px;
+    background-color: white;
+    width: 670px;
+    height: 436px;
+}
+
+.skill{
+    letter-spacing: 15px;
+    font-size: 24px;
+}
+
+.skill-box{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.skill-type{
+    letter-spacing: 7px;
+    line-height: 60px;
+}
+
+.me{
+    padding-left: 110px;
+    padding-top: 30px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+
+
+
+/*portfolio*/
+
+.LP{
+    width: 300px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+.donut{
+    margin-left: 250px;
+}
+
+.HP{
+    width: 400px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+.cafe{
+    margin-left: 250px;
+}
+
+.portfolio{
+    display: flex;
+}
+
+/*donut*/
+
+.portfolio-d{
+    display: flex;
+}
+
+.www{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 22px;
+}
+
+.donut{
+    margin-left: 260px;
+}
+
+.SPLP{
+    width: 300px;
+    height: 2000px;
+}
+
+.HPLP{
+    width: 400px;
+    height: 1000px;
+}
+
+/*contact*/
+input[type="text"],
+input[type="email"],
+textarea{
+    max-width: 100%;
+}
+
+/*フォーム*/
+
+form div{
+    margin-bottom: 14px;
+}
+
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 260px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    background-color: #fff;
+    border: 1px #fff solid;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 260px;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width:1000px;
+}
+textarea{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+}
+
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.button{
+    font-size: 16px;
+    background: #9B9999;
+    color: #fff;
+    padding: 18px 32px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    width: 350px;
+}
+
+.button:hover{
+    background: #6E6262;
+}
+
+/*footer*/
+footer{
+    background-color: #6E6262;
+    text-align: center;
+    padding: 26px 0;
+    margin-top: 100px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+@media(max-width:600px){
+    #home{
+     max-width: 100%;
+    }
+
+    .page-title{
+        font-size: 24px;
+        color: #6E6262;
+    }
+
+    nav{
+      
+    }
+
+     .title{
+        text-align: center;
+        font-size: 20px;
+     }
+
+
+ /*about*/
+    .about{
+    }
+
+    .pic{
+        width: 340px;
+        height: 250px;
+        padding-right: 10px;
+    }
+
+    .page-wrapper{
+        width: 340px;
+        height: 250px;
+        display: block;
+    }
+
+    .skill{
+        font-size: 16px;
+    }
+
+    .skill-type{
+        font-size: 14px;
+    }
+
+    .me{
+        font-size: 14px;
+    }
+
+
+ 
+ /*portfolio*/
+
+ 
+     /*CONTACT*/
+     #contact.page-title{
+         margin-top: 40px;
+     }
+ 
+     /*Form*/
+     input[type="text"],
+     input[type="email"],
+     textarea{
+         max-width: 100%;
+     }
+
+
+     footer{
+        width: 100%;
+     }
+ 
+ 
+ }
