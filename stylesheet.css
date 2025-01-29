@@ -18,7 +18,6 @@ body{
     text-transform: uppercase;
     margin-top: 47px;
     margin-bottom: 100px;
-    margin-left: 700px;
     list-style: none;
 }
 
@@ -32,18 +31,25 @@ body{
 }
 
 .page-title{
-    background-image: url(./06ellyfdesk845_TP_V4.jpg);
-    opacity: 0.5;
+    color: #6E6262;
+    position: absolute;
+    top: 150px;
+    left: 370px;
     text-align: center;
-    background-size: 960PX 620PX;
-    background-position: center top;
-    min-height: 100vh;
     padding-top: 230px;
     letter-spacing: 24px;
 }
 
 h2{
     font-size: 48px;
+}
+
+.image{
+    opacity: 0.5;
+    width: 960px;
+    height: 620px;
+    position: relative;
+    left: 300px;
 }
 
 .title{
@@ -54,7 +60,7 @@ h2{
 }
 
 /*about*/
-img{
+.pic{
     position: relative;
     width: 645px;
     height: 447px;
@@ -239,10 +245,15 @@ footer p{
     .page-title{
         font-size: 24px;
         color: #6E6262;
+        top: 0;
+        left: 0;
     }
 
-    nav{
-      
+    .main-nav li{
+      max-width: 500px;
+      margin: auto;
+      font-size: 12px;
+
     }
 
      .title{
@@ -250,41 +261,113 @@ footer p{
         font-size: 20px;
      }
 
+     
+
+     .image{
+        width: 100%;
+        max-width: 530px;
+        height: auto;
+        box-sizing: border-box;
+        left: 0;
+
+        
+     }
+
 
  /*about*/
     .about{
-    }
-
-    .pic{
-        width: 340px;
-        height: 250px;
-        padding-right: 10px;
-    }
-
-    .page-wrapper{
-        width: 340px;
-        height: 250px;
         display: block;
     }
 
+    .pic{
+        width: 400px;
+        height: 250px;
+        padding-right: 10px;
+        margin-left: 17px;
+    }
+
+    .page-wrapper{
+        width: 390px;
+        height: 680px;
+        display: block;
+        position: static;
+        margin-left: 17px;
+    }
+
     .skill{
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .skill-type{
-        font-size: 14px;
+        font-size: 16px;
+        border-bottom: solid 1px #6E6262;
+        margin-bottom: 50px;
     }
 
     .me{
-        font-size: 14px;
+        font-size: 16px;
+        padding-left: 0;
+        margin-left: 20px;
     }
 
 
  
  /*portfolio*/
+    .portfolio{
+        display: block;
+    }
+
+    .LP-wrapper{
+        margin-left: 60px;
+    }
+
+    .LP{
+        margin-left: 0;
+    }
+
+    .donut{
+        margin-left: 0;
+        margin-bottom: 80px;
+    }
+
+    .HP{
+        margin-left: 13px;
+    }
+    
+    .cafe{
+        margin-left: 60px;
+    }
+
+
+
+    /*donut*/
+    .portfolio-d{
+        display: block;
+    }
+
+    .www{
+        font-size: 14px;
+    }
+
+    .SPLP-wrapper{
+        margin-left: 70px;
+    }
+
+    .PCLP-wrapper{
+        margin-left: 15px;
+    }
+
+    .donut{
+        margin-top: 20px;
+        padding-bottom: 0;
+    }
+
+
 
  
      /*CONTACT*/
+
+
      #contact.page-title{
          margin-top: 40px;
      }
@@ -293,7 +376,13 @@ footer p{
      input[type="text"],
      input[type="email"],
      textarea{
-         max-width: 100%;
+         max-width: 90%;
+         margin-left: 20px;
+     }
+
+     label{
+        margin-left: 190px;
+        
      }
 
 
