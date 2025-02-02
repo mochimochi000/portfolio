@@ -22,7 +22,7 @@ body{
     padding-left: 700px;
 }
 
-.main-nav li{
+.main-nav li a{
     margin-left: 46px;
     text-decoration-line: none;
 }
