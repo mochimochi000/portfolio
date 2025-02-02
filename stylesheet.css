@@ -189,7 +189,21 @@ form div{
     margin-bottom: 14px;
 }
 
-label{
+.label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 260px;
+}
+
+.tel{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 260px;
+}
+
+.message{
     font-size: 1.125rem;
     margin-bottom: 10px;
     display: block;
@@ -416,9 +430,22 @@ footer p{
          margin-left: 20px;
      }
 
-     label{
-        margin-left: 190px;
+     .label{
+        margin-left: 200px;
         
+     }
+
+     .tel{
+        margin-left: 205px;
+     }
+
+     .message{
+        margin-left: 180px;
+     }
+
+     .button{
+        margin-left: 120px;
+        width: 200px;
      }
 
 
