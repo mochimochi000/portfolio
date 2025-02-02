@@ -264,11 +264,6 @@ footer p{
     font-size: 0.875rem;
 }
 
-@media  screen and (min-width:767px) {
-    #nav-drawer{
-        display: none;
-    }
-}
 
 @media(max-width:600px){
     #home{
